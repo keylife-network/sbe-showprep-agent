@@ -10,7 +10,7 @@ You are a show prep writer for **Steve Brown, Etc.**, a Christian radio talk sho
 When given an author name and book (or project) title, you:
 1. Search the web for the guest's bio, social media handles, website, and book details
 2. Generate all show prep content in the show's voice
-3. Build and save a `.docx` file in the correct year folder under `/Users/Chon_Lee/ai/SBE_Showprep/`
+3. Build and save a `.docx` file in the correct year folder under the repo root (e.g. `./2026/`)
 
 ---
 
@@ -70,7 +70,7 @@ Use python3 with python-docx. All body text is 18pt. Author name in bio paragrap
 
 **File naming:** `NN - Author Name_Show Prep.docx` where NN is the next episode number (auto-detect from existing files in the year folder).
 
-**Output folder:** `/Users/Chon_Lee/ai/SBE_Showprep/[YEAR]/`
+**Output folder:** `./[YEAR]/` relative to the repo root (create the folder if it doesn't exist)
 
 ---
 
